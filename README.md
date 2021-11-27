@@ -14,7 +14,7 @@ fn main() {
 
 # Example
 ```rs
-use rotcipher::macros::{rot4, rot13}
+use rotcipher::{rot4, rot13};
 
 fn main() {
     let rot4_str = rot4!("Hello, World!");
