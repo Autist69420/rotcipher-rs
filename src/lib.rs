@@ -1,6 +1,6 @@
 pub mod macros;
 
-pub(crate) fn rot(text: &str, amount: u8) -> String {
+pub fn rot(text: &str, amount: u8) -> String {
     text.chars()
         .map(|c| match c {
             'A'..='M' | 'a'..='m' => ((c as u8) + amount) as char,
